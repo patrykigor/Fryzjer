@@ -1,11 +1,26 @@
-main{
-display: flex;
+main {
+    display: flex;
 }
-body{
-text-align: center;
+
+body {
+    text-align: center;
+    font-family: 'Garamond';
 }
+
 header {
     background-color: #795548;
     color: white;
     padding: 7px;
+    font-size: 170%;
+}
+
+.container {
+    display: flex;
+}
+
+.col-8 {
+    width: 72%
+}
+.obraz {
+    height:400px;
 }
